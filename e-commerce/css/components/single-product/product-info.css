@@ -1,0 +1,175 @@
+.site-main .product-info{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.site-main .product-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.site-main .product-review{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 10px 0;
+}
+
+.site-main .product-review ul,
+.site-main .product-review li{
+    display: flex;
+    gap: 3px;
+}
+
+.site-main .product-review ul i{
+    color: gold;
+    font-size: 13px;
+}
+
+.site-main .product-review span{
+    font-size: 13px;
+    font-weight: 900;
+    color: brown;
+}
+
+.site-main .product-price{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.site-main .product-price s{
+    font-size: 16px;
+    color: #dee0ea;
+}
+
+.site-main .product-price strong{
+    font-size: 20px;
+    color: black;
+}
+
+.site-main .product-desc{
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.site-main .colors .colors-wrapper{
+    display: flex;
+    column-gap: 8px;
+    margin-left: -2px;
+}
+
+.site-main .colors .colors-label{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.site-main .colors .color-wrapper{
+    border: 1px solid transparent;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.site-main .colors .color-wrapper input[type="radio"]{
+    appearance: none;
+}
+/* radio button un yuvarlağını gizliyor */
+
+.site-main .colors .color-wrapper.active{
+    border-color: #e51414;
+}
+
+.site-main .colors .color-wrapper:hover{
+    border-color: #e51414;
+}
+
+.site-main .colors .color-wrapper label{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.site-main .colors .color-wrapper .color-21BrunRose{
+    background-color: rgb(124, 42, 93);
+}
+.site-main .colors .color-wrapper .color-31PearlyShell{
+    background-color: rgb(196, 156, 193);
+}
+.site-main .colors .color-wrapper .color-17PearlyMauve{
+    background-color: rgb(198, 66, 148);
+}
+.site-main .colors .color-wrapper .color-26SparklingHibiscusPink{
+    background-color: rgb(215, 88, 99);
+}
+.site-main .colors .color-wrapper .color-22SparklingRedGarnet{
+    background-color: rgb(137, 49, 53);
+}
+.site-main .colors .color-wrapper .color-10SparklingStrawberry{
+    background-color: rgb(207, 42, 50);
+}
+.site-main .colors .color-wrapper .color-barbie1{
+    background-color: #e220b8;
+}
+.site-main .colors .color-wrapper .color-barbie2{
+    background-color: #f368d5;
+}
+.site-main .colors .color-wrapper .color-barbie3{
+    background-color: #bd58bd;
+}
+.site-main .colors .color-wrapper .color-barbie4{
+    background-color: #ff8de6;
+}
+
+
+.site-main .cart-button{
+    display: flex;
+    column-gap: 10px;
+    margin: 10px 0;
+}
+
+.site-main .cart-button input{
+    width: 80px;
+}
+
+.site-main .cart-button button{
+    width: 100%;
+}
+
+.site-main .product-extra-buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.site-main .product-extra-buttons a{
+    font-size: 13px;
+    color: rgb(111, 107, 107);
+}
+
+.site-main .divider{
+    padding-bottom: 22px;
+    border-bottom: 1px solid #dee0ea;
+}
+
+.site-main .product-meta{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+.site-main .product-meta span{
+    color: darkgrey;
+    font-weight: 600;
+}

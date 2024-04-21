@@ -1,0 +1,146 @@
+/* wrapper kısımları burada */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.section-title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+/*! categories start */
+.categories {
+  margin: 40px 0;
+}
+
+.categories .category-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* taşan aşağı atlar */
+}
+
+/*! categories finish */
+
+/*! product start */
+.products {
+  margin-bottom: 40px;
+}
+
+.products .product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/*! product finish */
+
+/*! campaign start */
+.campaigns .campaigns-wrapper {
+  display: flex;
+  gap: 30px;
+  /* öğeler arası yatay ve dikey boşluk */
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+/*! campaign finish */
+
+/*! blog start */
+.blog {
+  margin-bottom: 40px;
+}
+
+.blog .blog-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+/*! blog finish */
+
+/*! brands start */
+.brands {
+  margin: 40px 0;
+}
+
+.brand-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex elemanıysa wrap verdiğimizde sıkıştığında taşan elemanı alta atıyor */
+  border: 1px solid #dee0ea;
+  padding: 30px 0;
+}
+
+.brand-list .brand-item {
+  opacity: 0.4;
+  transition: .2s ease all;
+}
+
+.brand-list .brand-item:hover {
+  opacity: 1;
+}
+/*! brands finish */
+
+/*! policy start */
+.policy{
+  border: 1px solid #dee0ea;
+  margin-top: 30px;
+}
+
+.policy .policy-list{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  flex-wrap: wrap;
+}
+
+.policy .policy-list .policy-item{
+  display: flex;
+  align-items: center;
+}
+
+.policy .policy-item i{
+  display: flex;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.policy .policy-item .policy-texts{
+  display: flex;
+  flex-direction: column;
+}
+
+.policy .policy-item .policy-texts strong{
+  font-weight: 600;
+}
+
+.policy .policy-item .policy-texts span{
+  font-size: 12px;
+}
+
+/*! policy finish */
+
+/*! responsive */
+@media (max-width: 768px) {
+  .blog .blog-list {
+    grid-template-columns: 1fr;
+  }
+  .policy .policy-list{
+    flex-direction: column;
+    align-items: center;
+  }
+  .policy .policy-item .policy-texts{
+    margin-bottom: 20px;
+  }
+}
+/* blog kısmını fr ile responsive yaptık */

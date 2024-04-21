@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "name": "Kiko Lipsticks",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 108.00
+        },
+        "discount": 17,
+        "img": {
+            "singleImage": "images/product1.jpg",
+            "thumbs": [
+                "images/product2.jpg",
+                "images/product12.2.jpg",
+                "images/product12.3.jpg"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Fenty Blush",
+        "price": {
+            "oldPrice": 169.00,
+            "newPrice": 138.00
+        },
+        "discount": 8,
+        "img": {
+            "singleImage": "images/product3.jpg",
+            "thumbs": [
+                "images/product4.jpg",
+                "images/prodct-fent.jpg",
+                "images/prodct-fent1.jpg"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Kaja Lipsticks",
+        "price": {
+            "oldPrice": 225.00,
+            "newPrice": 185.00
+        },
+        "discount": 19,
+        "img": {
+            "singleImage": "images/product77.jpg",
+            "thumbs": [
+                "images/product8.jpg",
+                "images/kajaaa1.jpg",
+                "images/kajaaa2.jpg"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Rare Blush",
+        "price": {
+            "oldPrice": 179.00,
+            "newPrice": 139.00
+        },
+        "discount": 8,
+        "img": {
+            "singleImage": "images/product9.jpg",
+            "thumbs": [
+                "images/product10.jpg",
+                "images/rareee.jpg",
+                "images/rareee1.jpg"
+            ]
+        }
+    }
+]

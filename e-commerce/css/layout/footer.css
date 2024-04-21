@@ -1,0 +1,179 @@
+/*! subscribe start */
+
+.footer .subscribe-row{
+    background-color: rgb(211, 0, 123);
+    color: white;
+    padding: 80px 0;
+}
+
+.footer .footer-row-wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 200px;
+}
+
+.footer .subscribe-title,
+.footer .contact-title{
+    font-size: 30px;
+    max-width: 500px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.footer .subscribe-desc,
+.footer .contact-desc{
+    font-size: 14px;
+    opacity: 0.6;
+    margin-top: 4px;
+}
+
+.footer .footer-subscribe-bottom{
+    margin-top: 40px;
+}
+
+.footer .footer-subscribe-bottom form{ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer .footer-subscribe-bottom form > input{ 
+    flex: 1;
+    height: 48px;
+}
+
+.footer .footer-subscribe-bottom form > button{ 
+    height: 48px !important;
+    border-color:deeppink;
+    background-color: black;
+    color: white;
+}
+
+.footer .privacy-text{
+    font-size: 10px;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+.footer .footer-subscribe-bottom p a{ 
+    color: pink;
+}
+
+.footer .footer-contact-bottom .download-app{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+/*! subscribe finish */
+
+/*! widgets start */
+.widgets-row{
+    padding: 60px 0;
+    border-bottom: 1px solid darkmagenta;
+}
+
+.widgets-row .footer-widgets{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.widgets-row .footer-widgets > div{
+    flex: 1;
+}
+/* footer widgets içinde ne kadar div varsa geçerlidir */
+
+.widgets-row .footer-widgets > .brand-info{
+    flex: 3;
+}
+
+.footer-widgets .brand-info .footer-desc{
+    width: 400px;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.footer-widgets .brand-info .footer-contact{
+    font-size: 14px;
+}
+
+.footer-widgets .widget-nav-menu h4{
+    font-weight: 600;
+    font-size: 15px;
+    color: deeppink;
+}
+
+.footer-widgets .widget-nav-menu ul{
+    margin-top: 15px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+/*! widgets finish */
+
+/*! copyright start */
+.footer-copyright{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyright .site-copyright{
+    font-size: 12px;
+}
+
+.footer-copyright  img{
+    height: 40px;
+    width: 42px;
+    margin: 0 15px;
+}
+
+.footer-copyright .footer-menu{
+    margin-left: auto;
+}
+
+.footer-copyright .footer-menu-list{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    column-gap: 10px;
+}
+
+.footer-copyright .footer-menu-list .list-item:not(:last-child){
+    border-right: 1px solid #dee0ea;
+    /* yan çizgiler */
+    padding-right: 10px;
+}
+/* en sonda çizgi istemediğimiz için not:last child dedik */
+
+
+/*! copyright finish */
+
+/*! responsive */
+
+@media (max-width: 768px){
+    .footer .footer-row-wrapper{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-widgets .brand-info .footer-desc{
+        width: unset;
+    }
+    .widgets-row .footer-widgets > div{
+        flex: unset !important;
+    }
+    /* divleri aşağı aldı */
+    .footer .brand-info{
+        margin-bottom: 20px;
+    }
+    .footer-copyright{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+    }
+    .footer-copyright .footer-menu{
+        margin-left: unset;
+    }
+}

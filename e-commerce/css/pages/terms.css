@@ -1,0 +1,21 @@
+.terms-wrapper h3{
+    font-weight: 600;
+    font-size: 40px;
+    color: deeppink;
+}
+
+.terms-wrapper h1{
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.terms-wrapper p{
+    margin-bottom: 8px;
+    margin-left: 3px;
+}
+
+.terms-wrapper p a{
+    color: deeppink;
+}

@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,800;1,300;1,500&display=swap");
+/* google/fonts - font seç - import - copy/paste */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  /* fontu aktardık. (import kısım altında copy/paste) */
+}
+
+body{
+  overflow-x:hidden ;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  color: deeppink;
+}
+
+button {
+  padding: 0 25px;
+  line-height: 40px;
+  cursor: pointer;
+  /* mouse geldiğinde tıklanabilirlik özelliği geliyor */
+  border: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0 25px;
+  border: 1px solid black;
+  font-weight: 500;
+  line-height: 40px;
+  transition: 0.2s ease all;
+}
+
+.btn-small {
+  line-height: 33px;
+}
+
+.btn-large {
+  line-height: 45px;
+}
+
+.btn-color1{
+  background-color: rgb(100, 43, 43);
+  color: white;
+  border-color: brown;
+}
+
+.btn-color1:hover{
+  background-color: rgb(158, 110, 110);
+  color: white;
+  border-color: antiquewhite;
+}
+
+.btn-background {
+  background-color: rgb(230, 90, 155);
+  color: white;
+  border: darkmagenta;
+}
+
+.btn-background:hover {
+  background-color: darkmagenta;
+  color: rgb(230, 90, 155);
+}
+
+textarea{
+  overflow: auto;
+}
+
+/* input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea {
+  outline: none;
+  padding: 8px 8px 8px 15px;
+  border-color: 1px solid deeppink;
+}
+
+input[type="text"],
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border-color: deeppink;
+} */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea {
+  outline: none;
+  border: 1px solid rgb(189, 83, 139);
+  padding: 8px 8px 8px 15px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border-color: deeppink;
+}
+/* focus ile mouse oraya geldiğinde aşağıdaki özellikleri alıyor. */
+
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+/* number inputunda yer alan işaretin basmadan da orda durmasını sağlar */
+
+.img-fluid{
+  width: 100%;
+}
+
+/*! responsive */
+
+@media (max-width: 1200px) {
+    .container {
+      max-width: 992px;
+    }
+  }
+  /* container responsive yapma */
+  /* 1200 px altına geçilince ... */
+  
+  @media (max-width: 992px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 576px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      max-width: 400px;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .container {
+      max-width: 350px;
+    }
+  }

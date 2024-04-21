@@ -1,0 +1,48 @@
+.campaigns .campaign-item {
+    /* image klasörüne gitmek için components ardından css dosyasından çıkmamız lazım () */
+    padding: 70px 35px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    color: rgb(37, 13, 33);
+}
+
+.campaigns .campaign-item .campaign-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.campaigns .campaign-item .campaign-desc {
+    margin: 40px 0;
+    font-size: 18px;
+}
+
+.campaigns-wrapper:nth-child(1) .campaign-item:nth-child(1) {
+    background-image: url(../../images/slider5.jpg);
+    flex: 3;
+}
+
+/* 2li wrapper altında her ikisine ikişer item yazdık.
+   Bunlara ayrı görevlendirebilmek için nth-child kullanıyoruz.
+   Burada 1.wrapper daki 1. item seçtik */
+
+.campaigns-wrapper:nth-child(1) .campaign-item:nth-child(2) {
+    background-image: url(../../images/slider2.jpg);
+    flex: 5;
+}
+
+.campaigns-wrapper:nth-child(2) .campaign-item:nth-child(1){
+    background-image: url(../../images/slider6.jpg);
+}
+
+.campaigns-wrapper:nth-child(2) .campaign-item:nth-child(2){
+    background-image: url(../../images/slider4.jpg);
+}
+
+@media (max-width:768px){
+    .campaigns .campaign-item{
+        width: 100%;
+        flex: unset !important;
+    }
+}

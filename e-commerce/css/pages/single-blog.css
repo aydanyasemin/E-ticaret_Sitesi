@@ -1,0 +1,53 @@
+.single-blog {
+    margin-top: 30px;
+}
+
+.single-blog figure img {
+    width: 100%;
+    height: 650px;
+    object-fit: contain;
+}
+
+.blog-wrapper .blog-meta {
+    display: flex;
+    font-size: 13px;
+    column-gap: 10px;
+    margin: 20px 5px;
+}
+
+.blog-wrapper .blog-date {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.blog-wrapper .blog-date::before,
+.blog-wrapper .blog-date::after {
+    content: "";
+    width: 13px;
+    height: 0.8px;
+    background-color: deeppink;
+}
+
+.blog-wrapper .blog-title {
+    text-decoration: underline;
+    color: rgb(121, 119, 119);
+}
+
+.blog-wrapper .blog-content h1 {
+    color: rgb(121, 119, 119);
+}
+
+.single-blog .tab-panel-reviews{
+    color: rgb(121, 119, 119);
+}
+
+.blog-wrapper .blog-content p {
+    margin-bottom: 10px;
+    color: darkgrey;
+}
+
+.blog-wrapper .blog-content span {
+    font-weight: 650;
+    color: rgb(167, 114, 142);
+}
